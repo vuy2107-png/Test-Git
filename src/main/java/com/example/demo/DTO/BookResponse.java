@@ -7,5 +7,12 @@ import lombok.Setter;
 @Getter
 @Setter
 @Builder
-public class BookReponse {
+public class BookResponse {
+    private Long id;
+    private String title;
+    private String author;
+    private String isbn;
+    private Integer publishedYear;
+    private Double price;
+    private Integer quantity;
 }
